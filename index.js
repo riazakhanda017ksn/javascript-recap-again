@@ -359,3 +359,16 @@
 // } finally {
 //   document.write(`please check your code again`);
 // }
+
+document.querySelector("#send").addEventListener("click", function () {
+  var input = document.querySelector("#input").value;
+  try {
+    if (input < 5) {
+      throw "input is too low";
+    } else if (input > 10) {
+      throw "input is too high";
+    }
+  } catch (error) {
+    console.log(error);
+  }
+});
