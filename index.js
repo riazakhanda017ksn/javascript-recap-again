@@ -349,3 +349,6 @@
 // document.write("<br/> <br/><br/><br/><br/><br/>");
 // document.write(`you are win: ${highestScore}  <br/>`);
 // document.write(`you are lost: ${lowestNumber} `);
+
+try {
+} catch (error) {}
