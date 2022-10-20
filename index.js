@@ -350,5 +350,12 @@
 // document.write(`you are win: ${highestScore}  <br/>`);
 // document.write(`you are lost: ${lowestNumber} `);
 
-try {
-} catch (error) {}
+// try {
+//   for (let index = 2; index > 100; index = index + 2) {
+//     document.write(`${index}  <br/>`);
+//   }
+// } catch (error) {
+//   document.write(error);
+// } finally {
+//   document.write(`please check your code again`);
+// }
