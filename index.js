@@ -416,13 +416,28 @@
 // defaultParameter();
 
 // learning rest parameter
-let sum = 0;
-function restParameter(a, b, ...c) {
-  for (let index = 0; index < c.length; index++) {
-    sum = sum + c[index];
-  }
-  console.log("sum", sum);
-  console.log(a, b, ...c);
-}
 
-restParameter(10, 20, 30, 50, 400, 700, 800, 1000);
+// let sum = 0;
+// function restParameter(a, b, ...c) {
+//   for (let index = 0; index < c.length; index++) {
+//     sum = sum + c[index];
+//   }
+//   console.log("sum", sum);
+//   console.log(a, b, ...c);
+// }
+
+// restParameter(10, 20, 30, 50, 400, 700, 800, 1000);
+
+//learning spread operator
+
+// const listOne = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const listTwo = [22, 4, 5, 775, 8892, 9005, 1];
+// const listThree = [33, 5, 899, 778, 99, 9009];
+
+// const total = [...listOne, ...listTwo, ...listThree];
+// console.log(total);
+// let sum = 0;
+// for (let index = 0; index < total.length; index++) {
+//   sum = sum + total[index];
+// }
+// console.log("total sum - ", sum);
