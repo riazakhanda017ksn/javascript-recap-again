@@ -406,3 +406,11 @@
 // console.log(x);
 
 // error will be -> ReferenceError: x is not defined
+
+// ---------learn default parameter
+
+// function defaultParameter(text = "hello im default parameter") {
+//   console.log(text);
+// }
+
+// defaultParameter();
