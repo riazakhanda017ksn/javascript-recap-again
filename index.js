@@ -360,15 +360,25 @@
 //   document.write(`please check your code again`);
 // }
 
-document.querySelector("#send").addEventListener("click", function () {
-  var input = document.querySelector("#input").value;
-  try {
-    if (input < 5) {
-      throw "input is too low";
-    } else if (input > 10) {
-      throw "input is too high";
-    }
-  } catch (error) {
-    console.log(error);
-  }
-});
+// document.querySelector("#send").addEventListener("click", function () {
+//   var input = document.querySelector("#input").value;
+//   try {
+//     if (input < 5) {
+//       throw "input is too low";
+//     } else if (input > 10) {
+//       throw "input is too high";
+//     }
+//   } catch (error) {
+//     console.log(error);
+//   }
+// });
+
+// hosting and strict
+
+// hosting
+
+x = 10;
+console.log(x);
+var x;
+
+// this is only possible for old js like var variable
