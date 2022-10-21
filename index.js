@@ -443,12 +443,28 @@
 // console.log("total sum - ", sum);
 
 //// learning object literal
-function objectLiteral(name, age, ...others) {
-  return {
-    name,
-    age,
-    ...others,
-  };
-}
-const objLtr = objectLiteral("riaz ahmed", 69, 893, 490, 30);
-console.log(objLtr);
+// function objectLiteral(name, age, ...others) {
+//   return {
+//     name,
+//     age,
+//     ...others,
+//   };
+// }
+// const objLtr = objectLiteral("riaz ahmed", 69, 893, 490, 30);
+// console.log(objLtr);
+
+// const object = {
+//   name: "riaz",
+//   fuc() {
+//     return "hello wold";
+//   },
+// };
+
+// const object = {
+//   name: "riaz",
+//   "fuc name"() {
+//     return "hello wold";
+//   },
+// };
+
+// console.log(object["fuc name"]);
