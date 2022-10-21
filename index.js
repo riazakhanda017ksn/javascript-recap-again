@@ -377,8 +377,20 @@
 
 // hosting
 
-x = 10;
-console.log(x);
-var x;
+// x = 10;
+// if (true) {
+//   y = 20;
+//   console.log(y);
+//   var y;
+// }
+// console.log(x);
+// var x;
 
 // this is only possible for old js like var variable
+
+// Note this is not possible in ES6
+// x = 10;
+// console.log(x);
+// let x;
+
+// it showing error because its not feature of Es6
