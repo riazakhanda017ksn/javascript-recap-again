@@ -467,4 +467,31 @@
 //   },
 // };
 
-// console.log(object["fuc name"]);
+// console.log(object["fuc name"]());
+
+// for in and for of learning
+
+// for in
+
+// const names = { name: "riaz", age: 23, cgpa: 3.34 };
+// for (const name in names) {
+//   console.log(names[name]);
+// }
+
+// for of learning
+
+// const intros = ["riaz", 32, 559748];
+// for (let intro of intros) {
+//   console.log(intro);
+// }
+
+const intros = [100, 32, 559748];
+// intros.forEach((intro) => {
+//   console.log(intro);
+// });
+
+intros.forEach((x, index, arr) => {
+  arr[index] = x + 2000000000000;
+});
+
+console.log(intros);
