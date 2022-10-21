@@ -441,3 +441,14 @@
 //   sum = sum + total[index];
 // }
 // console.log("total sum - ", sum);
+
+//// learning object literal
+function objectLiteral(name, age, ...others) {
+  return {
+    name,
+    age,
+    ...others,
+  };
+}
+const objLtr = objectLiteral("riaz ahmed", 69, 893, 490, 30);
+console.log(objLtr);
