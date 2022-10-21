@@ -414,3 +414,15 @@
 // }
 
 // defaultParameter();
+
+// learning rest parameter
+let sum = 0;
+function restParameter(a, b, ...c) {
+  for (let index = 0; index < c.length; index++) {
+    sum = sum + c[index];
+  }
+  console.log("sum", sum);
+  console.log(a, b, ...c);
+}
+
+restParameter(10, 20, 30, 50, 400, 700, 800, 1000);
