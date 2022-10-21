@@ -394,3 +394,15 @@
 // let x;
 
 // it showing error because its not feature of Es6
+//
+// strict mode---------->
+// x = 20;
+// console.log(x);
+
+///it will showing result without declaring variable but it is not right way , for that we have to use 'use strict mood'
+
+// "use strict";
+// x = 20;
+// console.log(x);
+
+// error will be -> ReferenceError: x is not defined
