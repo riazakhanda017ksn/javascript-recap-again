@@ -485,13 +485,23 @@
 //   console.log(intro);
 // }
 
-const intros = [100, 32, 559748];
+// const intros = [100, 32, 559748];
 // intros.forEach((intro) => {
 //   console.log(intro);
 // });
 
-intros.forEach((x, index, arr) => {
-  arr[index] = x + 2000000000000;
-});
+// intros.forEach((x, index, arr) => {
+//   arr[index] = x + 2000000000000;
+// });
 
-console.log(intros);
+// console.log(intros);
+
+// const intros = [100, 32, 559748];
+// intros.map((intro) => {
+//   console.log(intro * 2);
+// });
+
+// const filter = intros.filter((itr) => {
+//   return itr > 32;
+// });
+// console.log(filter);
