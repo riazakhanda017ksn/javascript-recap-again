@@ -505,3 +505,24 @@
 //   return itr > 32;
 // });
 // console.log(filter);
+
+// arrow function
+
+// const name = () => {
+//   console.log("hello world");
+// };
+// name();
+// const smallFun = () => console.log("hello world");
+// smallFun();
+
+// const total = (a, b) => {
+//   return a + b;
+// };
+// const result = total(10, 12);
+// console.log(result);
+
+// const total = (a, b) => a + b;
+// const result = total(10, 12);
+// console.log(result);
+
+// map and filter in arrow function
