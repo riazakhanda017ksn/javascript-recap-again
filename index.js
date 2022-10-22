@@ -526,3 +526,23 @@
 // console.log(result);
 
 // map and filter in arrow function
+
+const students = [
+  { name: "riaz", roll: 55 },
+  { name: "sama", roll: 56 },
+  { name: "ksn", roll: 59 },
+  { name: "akib", roll: 90 },
+  { name: "nafi", roll: 97 },
+  { name: "nafi", roll: 99 },
+  { name: "nafi", roll: 98 },
+];
+
+const studentFilter = () => {
+  return students.filter((stn) => stn.name.length > 3).map((lng) => lng.roll);
+};
+const studentRoll = studentFilter();
+let sum = 0;
+for (let index = 0; index < studentRoll.length; index++) {
+  sum = sum + studentRoll[index];
+}
+console.log(sum);
