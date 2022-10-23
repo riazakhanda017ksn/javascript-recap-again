@@ -554,3 +554,37 @@
 // };
 // const info = { name: "a", age: 23 };
 // studentInfo(info);
+
+// find and findIndex in js
+
+// const studentIds = [
+//   {
+//     id: 23,
+//     roll: 559773,
+//   },
+//   {
+//     id: 25,
+//     roll: 559775,
+//   },
+//   {
+//     id: 29,
+//     roll: 559770,
+//   },
+//   {
+//     id: 30,
+//     roll: 559771,
+//   },
+// ];
+
+// const stnId = studentIds.findIndex((stn) => stn.id > 25);
+// console.log(stnId);
+
+// startsWith , EndsWith and include
+
+// const hello = "hello mr riaz ahmed";
+// const check = hello.startsWith("hello");
+// console.log(check);
+// const check2 = hello.endsWith("ahmed");
+// console.log(check2);
+// const check3 = hello.includes("mr");
+// console.log(check3);
