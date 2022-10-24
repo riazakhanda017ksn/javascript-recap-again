@@ -865,3 +865,24 @@
 //   });
 // };
 // createAPost();
+
+// deleteAPI
+
+// const deleteApi = async (api) => {
+//   const data = await fetch(api);
+//   return data.json();
+// };
+
+// const deleteResult = async () => {
+//   deleteApi("https://jsonplaceholder.typicode.com/posts/1", {
+//     method: "DELETE",
+//   })
+//     .then((res) => {
+//       console.log(res);
+//     })
+//     .catch((err) => {
+//       console.log(err);
+//     });
+// };
+
+// deleteResult();
