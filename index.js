@@ -725,3 +725,43 @@
 // Promise.race([promise, promise2]).then((res) => {
 //   console.log("race", res);
 // });
+
+///// promise part-2
+
+// const name1 = () => {
+//   return new Promise((resolve, reject) => {
+//     resolve("name one working is perfectly");
+//   });
+// };
+// const name2 = () => {
+//   return new Promise((resolve, reject) => {
+//     resolve("name 2 one working is perfectly");
+//   });
+// };
+// const name3 = () => {
+//   return new Promise((resolve, reject) => {
+//     resolve("name 3 one working is perfectly");
+//   });
+// };
+// const name4 = () => {
+//   return new Promise((resolve, reject) => {
+//     resolve("name 4 one working is perfectly");
+//   });
+// };
+
+// name1().then((res) => {
+//   console.log(res);
+// });
+// name2().then((res) => {
+//   console.log(res);
+// });
+// name3().then((res) => {
+//   console.log(res);
+// });
+// name4()
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
