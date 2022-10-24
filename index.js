@@ -674,3 +674,54 @@
 //   console.log("hello world"); ////asynconous
 // });
 // console.log("hello world synconous 2"); //// synconous
+
+// /......learning promise
+
+// promise part-1
+// let number1 = parseInt(prompt("enter your first number : "));
+// let number2 = parseInt(prompt("enter the second number: "));
+// const promise = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     if (number1 >= number2) {
+//       resolve(`yes ${number1} is bigger then ${number2}`);
+//     } else {
+//       reject(`sorry condition was wrong`);
+//     }
+//   }, 1000);
+// });
+// promise
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+// let name1 = prompt("enter your first name : ");
+// let name2 = prompt("enter the second name: ");
+
+// const promise2 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     if (name1.length >= name2.length) {
+//       resolve(`yes ${name1} length is bigger then ${name2}`);
+//     } else {
+//       reject(`sorry condition was wrong in your name length`);
+//     }
+//   }, 4000);
+// });
+
+// promise2
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log(err.message);
+//   });
+
+// Promise.all([promise, promise2]).then((res) => {
+//   console.log(res);
+// });
+
+// Promise.race([promise, promise2]).then((res) => {
+//   console.log("race", res);
+// });
