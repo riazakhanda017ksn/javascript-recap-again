@@ -765,3 +765,62 @@
 //   .catch((err) => {
 //     console.log(err);
 //   });
+
+////sync await javascript
+// const name1 = () => {
+//   return new Promise((resolve, reject) => {
+//     resolve("name one working is perfectly");
+//   });
+// };
+// const name2 = () => {
+//   return new Promise((resolve, reject) => {
+//     resolve("name 2 one working is perfectly");
+//   });
+// };
+// const name3 = () => {
+//   return new Promise((resolve, reject) => {
+//     resolve("name 3 one working is perfectly");
+//   });
+// };
+// const name4 = () => {
+//   return new Promise((resolve, reject) => {
+//     resolve("name 4 one working is perfectly");
+//   });
+// };
+
+// const learningAsync = async () => {
+//   try {
+//     const A1 = await name1();
+//     console.log(A1);
+//     const A2 = await name2();
+//     console.log(A2);
+//     const A3 = await name3();
+//     console.log(A3);
+//     const A4 = await name4();
+//     console.log(A4);
+//   } catch (error) {
+//     console.log(error.message);
+//   }
+// };
+// learningAsync();
+
+// calling API from server by XML Request
+
+// const makeRequestByXML = (method, makeRequestByXML) => {
+//   const xhr = new XMLHttpRequest();
+//   xhr.open(method, makeRequestByXML);
+//   xhr.onload = () => {
+//     const data = xhr.response;
+//     console.log(JSON.parse(data));
+//   };
+//   xhr.onerror = () => {
+//     console.log("there were error with your api");
+//   };
+//   xhr.send();
+// };
+
+// makeRequestByXML();
+// const callback = () => {
+//   makeRequestByXML("GET", "https://jsonplaceholder.typicode.com/posts");
+// };
+// callback();
