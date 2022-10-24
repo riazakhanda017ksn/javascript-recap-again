@@ -588,3 +588,89 @@
 // console.log(check2);
 // const check3 = hello.includes("mr");
 // console.log(check3);
+
+// Synchronous vs Asynchronous
+
+// function name() {
+//   console.log("hello world"); //Synchronous
+// }
+
+// function name22() {
+//   setTimeout(() => {
+//     console.log("hello world 2nd time");
+//   }, 3000);
+// }
+
+// name();
+// name22();
+
+// callback and higher order function
+
+// note 1: ekti function jokhon arek ti function ke argument hishabe grohon korbe seta hoye jabe callback function
+
+// note 2: arr jei function ta callback function ke grohon korlo take higherOrder function bole
+
+// function learnCallback(callback) {
+//   console.log(`${callback} double is ${callback * callback}`);
+// }
+
+// function callBack(num, callBackFunction) {
+//   callBackFunction(num);                                    ///////higher order and callback function
+// }
+
+// const callbackResult = callBack(5, learnCallback);
+
+// callback function example and higherOrder function example
+
+// function one(callBack) {
+//   setTimeout(() => {
+//     callBack();
+//     console.log("hello world one time");
+//   }, 2000);
+// }
+// function two(callBack) {
+//   setTimeout(() => {
+//     callBack();
+//     console.log("hello world second time");
+//   }, 3000);
+// }
+// function three(callBack) {
+//   setTimeout(() => {
+//     callBack();
+//     console.log("hello world third time");
+//   }, 4000);
+// }
+// function four(callBack) {
+//   setTimeout(() => {
+//     callBack();
+//     console.log("hello world four time");
+//   }, 4000);
+// }
+
+// function five() {
+//   setTimeout(() => {
+//     console.log("hello world five time");
+//   }, 5000);
+// }
+
+// function callbackFunction() {
+//   one(() => {
+//     two(() => {
+//       three(() => {
+//         four(() => {
+//           five();
+//         });
+//       });
+//     });
+//   });
+// }
+
+// callbackFunction();
+
+// async example
+
+// console.log("hello world synconous 1"); ///synconous
+// document.querySelector("#hello-world").addEventListener("click", () => {
+//   console.log("hello world"); ////asynconous
+// });
+// console.log("hello world synconous 2"); //// synconous
