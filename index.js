@@ -806,9 +806,10 @@
 
 // calling API from server by XML Request
 
-// const makeRequestByXML = (method, makeRequestByXML) => {
+// const makeRequestByXML = (method, makeRequestByXML, postCallback) => {
 //   const xhr = new XMLHttpRequest();
 //   xhr.open(method, makeRequestByXML);
+//   xhr.setRequestHeader("Content-type", "application/json");
 //   xhr.onload = () => {
 //     const data = xhr.response;
 //     console.log(JSON.parse(data));
@@ -816,7 +817,7 @@
 //   xhr.onerror = () => {
 //     console.log("there were error with your api");
 //   };
-//   xhr.send();
+//   xhr.send(JSON.stringify(postCallback));
 // };
 
 // makeRequestByXML();
@@ -824,3 +825,11 @@
 //   makeRequestByXML("GET", "https://jsonplaceholder.typicode.com/posts");
 // };
 // callback();
+
+// const postCallback = () => {
+//   makeRequestByXML("POST", "https://jsonplaceholder.typicode.com/posts", {
+//     title: "foo",
+//     body: "bar",
+//     userId: 1,
+//   });
+// };
