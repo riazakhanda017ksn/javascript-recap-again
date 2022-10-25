@@ -886,3 +886,50 @@
 // };
 
 // deleteResult();
+
+///learning local storage and session storage
+
+//local storage
+
+// localStorage.setItem("name", "riaz uddin akhanda");
+// localStorage.setItem("password", "125362621272");
+
+// // how to update in local storage
+
+// localStorage.setItem("name", "maruf hasan aman");
+// localStorage.setItem("password", "743348374");
+
+// const username = localStorage.getItem("name");
+// const password = localStorage.getItem("password");
+// console.log(username, password);
+
+///how remove item from local storage,
+
+// localStorage.removeItem("name");
+// localStorage.removeItem("password");
+
+// localStorage.setItem("countriesName", JSON.stringify(countryName));
+
+// const getName = JSON.parse(localStorage.getItem("countriesName"));
+
+// console.log(getName);
+
+// localStorage.clear();
+
+///session storage
+// const allname = { name1: "bd", name2: "pk" };
+// sessionStorage.setItem("names", JSON.stringify(allname));
+// const sessionName = JSON.parse(sessionStorage.getItem("names"));
+// console.log(sessionName);
+// sessionStorage.clear();
+
+/// what is deffernce between sessionStorage and localStorage
+// 1: localStorage data dirgho din i mean life time dhore rakhte pare
+
+// 2: sessionStorage computer off kore dile data moche jay
+
+/////learn cookie
+
+// cookie moddhe data set korte dile setar jonno time bole dite
+
+// ati session storage and localStorage mooto dharon khomota nei
